@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fraud Alert BD</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      color: #c62828;
+    }
+    .form-box {
+      background: #fff;
+      padding: 20px;
+      border: 1px solid #ccc;
+      max-width: 400px;
+      margin: auto;
+      border-radius: 8px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 8px;
+      margin-bottom: 16px;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+    }
+    button {
+      background: #c62828;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1 align="center">Fraud Alert BD</h1>
+  <div class="form-box">
+    <form>
+      <label for="name">আপনার নাম</label>
+      <input type="text" id="name" name="name" placeholder="নাম লিখুন" required>
+
+      <label for="phone">মোবাইল নম্বর</label>
+      <input type="tel" id="phone" name="phone" placeholder="মোবাইল লিখুন" required>
+
+      <label for="details">প্রতারণার বিবরণ</label>
+      <textarea id="details" name="details" placeholder="বিস্তারিত লিখুন..." rows="5" required></textarea>
+
+      <button type="submit">সাবমিট করুন</button>
+    </form>
+  </div>
+</body>
+</html>
